@@ -30,6 +30,30 @@ function Projects() {
 
 const projects = [
   {
+    name: "Portfolio",
+    gitLink: "https://github.com/akku750156/Portfolio.git",
+    techs: [
+      { name: "ReactJS", link: "../images/react.png" },
+      { name: "TailwindCSS", link: "../images/tailwind.png" },
+      { name: "NodeJS", link: "../images/node.png" },
+      { name: "ExpressJS", link: "../images/express.png" },
+      { name: "MongoDB", link: "../images/mongo.png" },
+    ],
+    desc: "Basically a Portfolio website, used some of the small animation libraries like Gsap",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/Portfolio.git",
+      },
+      {
+        name: "Website",
+        image: "../images/website.png",
+        url: "https://akashtiwari-portfolio.netlify.app",
+      },
+    ],
+  },
+  {
     name: "Instagram-Complete",
     gitLink: "https://github.com/akku750156/Instagram-Complete.git",
     techs: [
@@ -47,26 +71,7 @@ const projects = [
       { name: "Website", image: "../images/website.png", url: "" },
     ],
   },
-  {
-    name: "Portfolio",
-    gitLink: "https://github.com/akku750156/Portfolio.git",
-    techs: [
-      { name: "ReactJS", link: "../images/react.png" },
-      { name: "TailwindCSS", link: "../images/tailwind.png" },
-      { name: "NodeJS", link: "../images/node.png" },
-      { name: "ExpressJS", link: "../images/express.png" },
-      { name: "MongoDB", link: "../images/mongo.png" },
-    ],
-    desc: "Basically a Portfolio website, used some of the small animation libraries like Gsap",
-    links: [
-      {
-        name: "Github",
-        image: "../images/GitHub.png",
-        url: "https://github.com/akku750156/Portfolio.git",
-      },
-      { name: "Website", image: "../images/website.png", url: "" },
-    ],
-  },
+
   {
     name: "Tesla-Front-End",
     gitLink: "https://github.com/akku750156/Tesla-Front-End.git",
@@ -82,7 +87,11 @@ const projects = [
         image: "../images/GitHub.png",
         url: "https://github.com/akku750156/Tesla-Front-End.git",
       },
-      { name: "Website", image: "../images/website.png", url: "" },
+      {
+        name: "Website",
+        image: "../images/website.png",
+        url: "https://tesla-clone-750156.netlify.app",
+      },
     ],
   },
   {
@@ -99,7 +108,11 @@ const projects = [
         image: "../images/GitHub.png",
         url: "https://github.com/akku750156/Mausam.git",
       },
-      { name: "Website", image: "../images/website.png", url: "" },
+      {
+        name: "Website",
+        image: "../images/website.png",
+        url: "https://mausam-750156.netlify.app",
+      },
     ],
   },
   {
