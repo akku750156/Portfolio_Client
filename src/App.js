@@ -7,6 +7,8 @@ import Techs from "./Components/Techs";
 import Connect from "./Components/Connect";
 import Projects from "./Components/Projects";
 import Feedbacks from "./Components/Feedbacks";
+import DSAData from "./Components/DSAData";
+import Repository from "./Components/Repository";
 // import Footer from "./Components/Footer";
 
 function App() {
@@ -21,6 +23,8 @@ function App() {
             <Route exact path="/Techs" component={Techs}></Route>
             <Route exact path="/Projects" component={Projects}></Route>
             <Route exact path="/Feedbacks" component={Feedbacks}></Route>
+            <Route exact path="/Repository" component={Repository}></Route>
+            <Route exact path="/DSAData" component={DSAData}></Route>
           </Switch>
         </Router>
         <Connect />

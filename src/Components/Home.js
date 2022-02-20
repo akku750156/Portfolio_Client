@@ -33,6 +33,12 @@ function Home() {
           >
             Feedbacks
           </Link>
+          <Link
+            to="/Repository"
+            className="bg-secondary text-green-800 px-8 py-2 absolute bottom-20 left-12 font-bold uppercase font-sans hover:text-green-900"
+          >
+            Repositories
+          </Link>
           <div className="flex flex-col justify-center items-center relative">
             <div className="font-serif absolute bg-transparent mb-12 sm:mb-12 md:mb-20 lg:mb-28 text-5xl md:text-7xl lg:text-8xl text-bgheading">
               &#xa0;&#x3c;HELLO&#x2f;&#x3e;&#xa0;
