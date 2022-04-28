@@ -30,6 +30,30 @@ function Projects() {
 
 const projects = [
   {
+    name: "DailyBlog",
+    gitLink: "https://github.com/akku750156/dailyblog",
+    techs: [
+      { name: "NextJS", link: "../images/next.png" },
+      { name: "TailwindCSS", link: "../images/tailwind.png" },
+      { name: "NodeJS", link: "../images/node.png" },
+      { name: "ExpressJS", link: "../images/express.png" },
+      { name: "MongoDB", link: "../images/mongo.png" },
+    ],
+    desc: "Discover the platform that gives you the freedom to create , write and publish your ideas in the form of your Blog posts on the daily basis.",
+    links: [
+      {
+        name: "Github",
+        image: "../images/GitHub.png",
+        url: "https://github.com/akku750156/dailyblog",
+      },
+      {
+        name: "Website",
+        image: "../images/website.png",
+        url: "https://dailyblog.vercel.app",
+      },
+    ],
+  },
+  {
     name: "Portfolio",
     gitLink: "https://github.com/akku750156/Portfolio.git",
     techs: [
